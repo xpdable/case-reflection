@@ -1,0 +1,63 @@
+[
+    {
+        "func": "foo",
+        "param": ["param1"],
+        "return": true
+    },
+    {
+        "func": "fooONE",
+        "param": ["param1", "param2"],
+        "return": true
+    },
+    {
+        "func": "foo",
+        "param": ["param1", "param2", "param3", "param4"],
+        "return": true,
+        "order": 5
+    },
+    {
+        "func": "foo",
+        "param": ["param2"],
+        "return": false
+    },
+    {
+        "func": "fooONE",
+        "param": ["param1", "param2"],
+        "return": false
+    },
+    {
+        "func": "foo",
+        "param": ["param1", "param2"],
+        "return": true
+    },
+    {
+        "func": "fooTwo",
+        "param": ["param1", "param2", "param3", "param4"],
+        "return": true
+    },
+    {
+        "func": "fooTwo",
+        "param": ["param1", "param2"],
+        "return": false
+    },
+    {
+        "func": "fooTwo",
+        "param": ["param1", "param2"],
+        "return": false
+    },
+    {
+        "func": "fooONE",
+        "param": ["param1", "param2"],
+        "return": false
+    },
+    {
+        "func": "foo",
+        "param": ["param1", "param2", "param3", "param4"],
+        "return": true
+    },
+    {
+        "func": "fooTwo",
+        "param": ["param1", "param2"],
+        "return": false
+    }
+]
