@@ -1,7 +1,7 @@
 # Case - Reflection
-We have Json file describing a list for functions calls history from the system.
-Each element of the Json array is representing an invoking action.
-For example, below snippet means function `fooONE` is called with two parameters `param1` and `param2`, and the function returned a value (Not None/null). Please refer to [example](func.json).
+We have Json file describing a list of functions calls history from one of our systems.
+Each element of the Json array represents an invoking action.
+For example, below snippet means function `fooONE` is called with two parameters `param1` and `param2`, i.e. `fooOne(param1,param2)` and the function returned a value (Not None/null). Please refer to [example](func.json).
 ```Json
 [
   ...
@@ -14,6 +14,7 @@ For example, below snippet means function `fooONE` is called with two parameters
 ]
 ```
 Now, teams want to evaluate all actions, therefore please write a function to traverse all historical calls according to a given json file.
+
 ## Hints
 - The number of functions is not fixed, it is according to the system runtime calls. Sometimes, during a period of time, there are only one function is called, and sometimes 500+ different functions.
 
